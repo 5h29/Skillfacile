@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pacifico&family=Paytone+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 /* Général */
 *{
-    margin:0;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -60,22 +59,26 @@ header nav ul .opt4:hover{
     align-items: center;
 }
 
-main h1{
+.premier{
     font-family: "Pacifico", cursive;
     font-size: 23px;
     color: rgb(255, 120, 120);
+    margin: 0;
 }
 
-main h2{
+.deuxeme{
     font-family: "Oswald", sans-serif;
     color: #423B73;
     font-size: 38px;
+    margin: 0;
+    width: 70%;
 }
 
-main p{
+.p3{
     padding: 24px 0;
     font-size: 16px;
     color: #423B73;
+    width: 70%;
 }
 
 .a1{
@@ -130,7 +133,7 @@ main p{
     gap: 30px;
     align-items: center;
     padding: 30px;
-    gap: 0px;
+    gap: 15px;
 }
 
 .sec2 h2{
@@ -168,11 +171,195 @@ main p{
     background-color: #30CD8A;
 }
 
-.sec3 div{
-    margin: auto;
-    text-align: center;
+.sec3{
+    overflow: hidden;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.sec3div1{
+    max-width: 1440px;
+}
+
+.sec3div1{
+    width: 100%;
+}
+
+.sec3div2{
+    padding: 10px;
+}
+
+.sec3div2{
     max-width: 650px;
-    padding: 90px 0;
+}
+
+.sec3prt1{
+    width: 100%;
+}
+
+
+.art1{
+    width: 100%;
+}
+
+
+.div1art1{
+    padding: 10px;
+}
+
+
+.div2art1{
+    text-align: center;
+}
+
+
+.h1sec3{
+    color: #e34e67;
+    font-family: "Pacifico", Sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.div3art1{
+    text-align: center;
+    margin: -16px 0 10px;
+}
+
+.h2sec3{
+    color: #423b73;
+    font-family: "Oswald", Sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.div4art1{
+    text-align: center;
+    margin: 0;
+}
+
+.p1art1{
+    box-sizing: border-box;
+}
+
+.sec3prt2{
+    width: 100%;
+}
+
+.prt2div1{
+    max-width: 1140px;
+}
+
+.prt2div2{
+    --widgets-spacing: 20px;
+}
+
+.prt2div3{
+    display: flex;
+}
+
+.prt2div4{
+    width: 100%;
+}
+
+.prt2div5{
+    box-sizing: border-box;
+}
+
+.prt2div6{
+    text-align: left;
+    flex-direction: row;
+}
+
+.elementor-image{
+    width: 26%;
+}
+
+
+.img1{
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.prt2div7{
+    width: 100%;
+}
+
+.elementor-image-titre{
+    margin-bottom: 3px;
+    color: #423b73;
+    font-family: "Oswald", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: none;
+}
+
+.elementor-image-para{
+    color: #30cd8a;
+}
+
+.prt2div8{
+    color: #fff;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.elementor-description-1{
+    background-color: #1e1d31;
+    border-radius: 24px;
+    padding: 40px;
+}
+
+.p2prt2tte{
+    margin: 0;
+}
+
+.elementor-column{
+    padding: 31px;
+}
+
+.elementor-element{
+    margin-bottom: 20px;
+}
+
+.elementor-widget-containe{
+    align-items: center;
+}
+
+.elementor-image-box-img{
+    width: 26%;
+}
+
+.elementor-image-box-content{
+    width: 100%;
+}
+
+.elementor-image-box-title{
+    margin-bottom: 3px;
+    color: #423b73;
+    font-family: "Oswald", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: none;
+}
+
+.ptest{
+    color: #30cd8a;
+
+}
+
+.p3prt3ttest{
+    margin: 0;
+    color: #fff;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #1e1d31;
+    border-radius: 24px;
+    padding: 40px;
 }
 
 /* Footer */
